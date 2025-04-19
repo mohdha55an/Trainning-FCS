@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" href="/Css/form.css">
+</head>
+
+<body>
+  <!-- <center> -->
+    <h1 style="text-align: center;">Registration Form</h1>
+  <!-- </center> -->
+  <hr style="color: white; ">
+  <div>
+    <form>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required maxlength="20" placeholder="Enter Your First Name " />
+      <br />
+
+      <label for="Lname">Last Name:</label>
+      <input type="text" id="Lname" name="Lname" required maxlength="20" placeholder="Enter Your Last Name " />
+      <br />
+
+      <label for="fname">Father's First Name:</label>
+      <input type="text" id="fname" name="fname" required maxlength="20" placeholder="Enter Your Father's First Name "
+        size="28" />
+      <br />
+
+      <label for="fname">Father's Last Name:</label>
+      <input type="text" id="fname" name="fname" required maxlength="20" size="28"
+        placeholder="Enter Your Father's Last Name " />
+      <br />
+
+      <label>Course :</label>
+      <select style="width:130px; background-color: #e8ebe4;">
+        <option value="Course">Course</option>
+        <option value="BCA">BCA</option>
+        <option value="BBA">BBA</option>
+        <option value="B.tech">B.Tech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.tech">M.Tech</option>
+        <option value="M.com">M.com</option>
+      </select>
+      <br />
+      <div>
+        <label for="Gender" style="display: flex;">Gender :</label>
+        <input type="radio" name="Gender" checked id="Gender" />Male
+        <input type="radio" name="Gender" checked id="Gender" />Female
+      </div>
+      <br />
+      <label for="Phone">Phone no. :</label>
+      <input type="tel" name="Phone" id="Phone" required placeholder="+91 9XXXXXXXXX" size="12" /><br />
+
+      <label for="email">Email :</label>
+      <input type="email" name="email" id="email" required placeholder="Enter Your Email" /><br />
+
+      <label for="address">Address :</label><br />
+      <textarea style="background-color: #e8ebe4;
+      font-weight: 600;
+       border-radius: 6px;" name="address" id="address" rows="8" cols="150" placeholder="Enter Your Address">
+Enter Your Address...</textarea>
+      <br />
+  </div>
+  <!-- <center> -->
+  <div id="button">
+    <button style="text-align: center;" type="submit">Submit</button>
+  </div>
+  <!-- </center> -->
+  </form>
+</body>
+
+</html>

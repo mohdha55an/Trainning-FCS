@@ -64,6 +64,7 @@ color: orangered;
 }
 #myImg:hover{
 	width: 170px;
+    cursor: pointer;
 }
 
 #cv{
